@@ -1,0 +1,130 @@
+# RushUp SkinChanger
+
+A client-side cosmetic changer for CS2. It only alters the appearance of items on
+your own screen — other players cannot see the changes, and it grants no gameplay
+advantage.
+
+Users receive a single `RushUpSkinChanger-Injector.exe`. On launch it verifies a
+licence key, pulls the latest build, and manual-maps it into the game.
+
+## Features
+
+### Weapons
+- Weapon skins
+- Weapon paint kits
+- Wear / float
+- Pattern seed
+- StatTrak
+- StatTrak kill count
+- Custom names
+- Default skin support
+- Weapon images
+
+### Knives
+- Knife model changer
+- Knife skins
+- Wear
+- Pattern seed
+- StatTrak
+- Custom names
+- Restore to the original knife on unapply
+- Knife images
+
+### Gloves
+- Glove model changer
+- Glove skins
+- Wear
+- Pattern seed
+- Restore to the original gloves on unapply
+- Glove images
+
+### Stickers
+- Sticker kit selection
+- Up to 5 sticker slots
+- Sticker wear
+- Sticker rotation
+- Sticker scale
+- Sticker placement / positioning
+- Sticker images
+
+### Charms / keychains
+- Charm selection
+- Seed
+- X / Y / Z positioning
+- Charm images
+
+### Agents
+- Agent changer (T and CT agents)
+- Default agent support
+- Agent images
+
+### Music kits
+- Music kit selection
+- Music kit images
+
+### Collectibles
+- Pins, medals and operation coins (challenge / bronze / silver / gold merged)
+- Grade picker per family, categorised like the weapons page
+- Collectible images
+
+### Inventory / loadout
+- Click a card to select, a button to add — nothing is applied by accident
+- Added items show up in the game's own inventory and loadout screens and equip
+  like any other item
+- Browse your added items by category (weapons, knives, gloves, agents, music
+  kits, collectibles) with per-item apply / unapply
+- Import another player's public CS2 inventory by SteamID
+- The inventory persists through configs
+
+### 3D model preview
+- Weapon preview
+- Agent / player preview
+- Mouse drag rotation
+- Pan
+- Zoom
+- Reset controls
+- Switching between weapon and player previews
+
+### Menu / configuration
+- Standalone ImGui menu (toggle with Insert, unload with PageDown)
+- Skin changer tab
+- Settings tab
+- Theme editor with theme save / load
+- Config save / load / delete
+- Skin changer settings persist through configs
+- English / Chinese UI toggle
+- Automatic scaling to the display resolution
+
+### Injector / delivery
+- KeyAuth licence check with HWID lock
+- Licence key and local state stored under `HKCU\Software\RushUp` (no loose files)
+- Splash lightbox with live download progress
+- Auto-update: fetches the latest DLL when the published version differs
+- Manual-map injection into `cs2.exe`
+- Requires running as administrator
+
+### Misc
+- Item schema parsing for weapons, skins, knives, gloves, stickers, charms,
+  agents, music kits and collectibles
+- Skin / sticker / agent / collectible image loading from the game files
+- Unicode player-name rendering (multi-script font fallback)
+- All game signatures / patterns centralized in `patterns.h`
+
+## Usage
+
+1. Get a licence key.
+2. Run `RushUpSkinChanger-Injector.exe` as administrator and accept the risk
+   notice.
+3. Paste the licence key when prompted (stored after the first successful check).
+4. With CS2 running, wait for the splash to report a successful injection.
+5. Press **Insert** in-game to open the menu, **PageDown** to unload.
+
+> ⚠️ Tools that modify game memory can be detected by VAC. Account bans are a real
+> risk — use at your own discretion, ideally on a test account.
+
+
+---
+
+This repository only hosts the published builds (injector exe + `version.txt`) that
+the auto-updater pulls from. The source code lives elsewhere. Grab the latest exe
+from the [Releases](../../releases/latest) page.
