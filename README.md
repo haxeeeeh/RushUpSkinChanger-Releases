@@ -113,11 +113,17 @@ licence key, pulls the latest build, and manual-maps it into the game.
 ## Usage
 
 1. Get a licence key.
-2. Run `RushUpSkinChanger-Injector.exe` as administrator and accept the risk
+2. Put `RushUpSkinChanger-Injector.exe` in its own folder and **add that folder to
+   your antivirus exclusions** (Windows Security → Virus & threat protection →
+   Exclusions). The injector manual-maps a DLL into the game, which heuristic
+   scanners flag on sight; without the exclusion the downloaded DLL gets
+   quarantined and the injector keeps reporting *First run - downloading...*
+   followed by a download failure.
+3. Run `RushUpSkinChanger-Injector.exe` as administrator and accept the risk
    notice.
-3. Paste the licence key when prompted (stored after the first successful check).
-4. With CS2 running, wait for the splash to report a successful injection.
-5. Press **Insert** in-game to open the menu, **PageDown** to unload.
+4. Paste the licence key when prompted (stored after the first successful check).
+5. With CS2 running, wait for the splash to report a successful injection.
+6. Press **Insert** in-game to open the menu, **PageDown** to unload.
 
 > ⚠️ Tools that modify game memory can be detected by VAC. Account bans are a real
 > risk — use at your own discretion, ideally on a test account.
