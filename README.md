@@ -18,6 +18,7 @@ licence key, pulls the latest build, and manual-maps it into the game.
 - StatTrak kill count, counting up with your kills in game
 - Custom names
 - Default skin support
+- Favourite skins, pinned to the top of the skin list
 - Weapon images
 
 ### Knives
@@ -28,6 +29,7 @@ licence key, pulls the latest build, and manual-maps it into the game.
 - StatTrak
 - Custom names
 - Restore to the original knife on unapply
+- Kill feed shows the knife you picked, not the stock one
 - Knife images
 
 ### Gloves
@@ -61,6 +63,7 @@ licence key, pulls the latest build, and manual-maps it into the game.
 
 ### Music kits
 - Music kit selection
+- StatTrak music kits, counting up with your MVPs in game
 - Music kit images
 
 ### Collectibles
@@ -73,9 +76,11 @@ licence key, pulls the latest build, and manual-maps it into the game.
 - Added items show up in the game's own inventory and loadout screens and equip
   like any other item
 - Browse your added items by category (weapons, knives, gloves, agents, music
-  kits, collectibles) with per-item apply / unapply
+  kits, collectibles, other) with per-item apply / unapply
 - Import another player's public CS2 inventory by SteamID, including agent
-  patches and collectibles
+  patches, collectibles, stickers, graffiti, charms, cases and keys, into a
+  config of its own named after the profile (e.g. `tw_eeeeh`)
+- Import a single item from its inspect link
 - Edit the patches on an added agent
 - The inventory persists through configs
 
@@ -90,6 +95,8 @@ licence key, pulls the latest build, and manual-maps it into the game.
 
 ### Menu / configuration
 - Standalone ImGui menu (toggle with Insert, unload with PageDown)
+- Opening the menu in a match goes to the gun or knife in hand
+- Rebindable menu and unload keys
 - Skin changer tab
 - Settings tab
 - Theme editor with theme save / load
