@@ -15,7 +15,7 @@ licence key, pulls the latest build, and manual-maps it into the game.
 - Wear / float
 - Pattern seed
 - StatTrak
-- StatTrak kill count
+- StatTrak kill count, counting up with your kills in game
 - Custom names
 - Default skin support
 - Weapon images
@@ -56,6 +56,7 @@ licence key, pulls the latest build, and manual-maps it into the game.
 ### Agents
 - Agent changer (T and CT agents)
 - Default agent support
+- Agent patches (up to 3), shown in game and in the 3D preview
 - Agent images
 
 ### Music kits
@@ -73,7 +74,9 @@ licence key, pulls the latest build, and manual-maps it into the game.
   like any other item
 - Browse your added items by category (weapons, knives, gloves, agents, music
   kits, collectibles) with per-item apply / unapply
-- Import another player's public CS2 inventory by SteamID
+- Import another player's public CS2 inventory by SteamID, including agent
+  patches and collectibles
+- Edit the patches on an added agent
 - The inventory persists through configs
 
 ### 3D model preview
