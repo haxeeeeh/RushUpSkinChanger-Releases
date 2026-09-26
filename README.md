@@ -59,6 +59,7 @@ licence key, pulls the latest build, and manual-maps it into the game.
 - Agent changer (T and CT agents)
 - Default agent support
 - Agent patches (up to 3), shown in game and in the 3D preview
+- Agent voice lines follow the chosen agent (only you hear it)
 - Agent images
 
 ### Music kits
