@@ -46,7 +46,8 @@ licence key, pulls the latest build, and manual-maps it into the game.
 - Sticker wear
 - Sticker rotation
 - Sticker scale
-- Sticker placement / positioning
+- Sticker placement / positioning, measured from the slot the sticker is
+  placed from, so imported freely-placed stickers land where the owner put them
 - Sticker images
 
 ### Charms / keychains
@@ -60,6 +61,7 @@ licence key, pulls the latest build, and manual-maps it into the game.
 - Default agent support
 - Agent patches (up to 3), shown in game and in the 3D preview
 - Agent voice lines follow the chosen agent (only you hear it)
+- Voice preview: play a random line from the agent's voice pack in the menu
 - Agent images
 
 ### Music kits
