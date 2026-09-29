@@ -84,9 +84,14 @@ licence key, pulls the latest build, and manual-maps it into the game.
 - Import another player's public CS2 inventory by SteamID, including agent
   patches, collectibles, stickers, graffiti, charms, cases and keys, into a
   config of its own named after the profile (e.g. `tw_eeeeh`)
+- Recently loaded inventories drop down under the import box, filtered as you
+  type; click one to fill it in
 - Import a single item from its inspect link
 - Edit the patches on an added agent
 - The inventory persists through configs
+- Injecting mid-match keeps the config's loadout: equips the game refuses in a
+  match are retried and go on once back in the main menu, and items dropped
+  when the game resends its inventory are added back
 
 ### HUD / match info
 Each item has its own switch on the HUD tab, saved with the config; all are on by
