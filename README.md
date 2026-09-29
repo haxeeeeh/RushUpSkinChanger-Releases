@@ -1,8 +1,9 @@
 # RushUp SkinChanger
 
-A client-side cosmetic changer for CS2. It only alters the appearance of items on
-your own screen — other players cannot see the changes, and it grants no gameplay
-advantage.
+A client-side cosmetic changer for CS2. The cosmetics only alter the appearance of
+items on your own screen — other players cannot see the changes. The optional HUD
+tab adds match info (hit feedback, extra scoreboard columns, a bomb timer) that is
+also shown only to you; each piece can be switched off.
 
 Users receive a single `RushUpSkinChanger-Injector.exe`. On launch it verifies a
 licence key, pulls the latest build, and manual-maps it into the game.
@@ -87,6 +88,19 @@ licence key, pulls the latest build, and manual-maps it into the game.
 - Edit the patches on an added agent
 - The inventory persists through configs
 
+### HUD / match info
+Each item has its own switch on the HUD tab, saved with the config; all are on by
+default.
+- Hit message in chat: who you hit, for how much and how much they have left
+  (local chat, only you see it)
+- Damage numbers floating up beside the crosshair
+- Scoreboard: an HP column for every player, enemies' money filled into the
+  money column, and a defuse-kit icon on enemies who carry one
+- Bomb timer at the top of the screen: bomb site (A / B), time left with a
+  progress bar, and a defuse progress bar that shows whether the defuse will
+  finish in time
+- Styled after the menu, following the current theme's accent colour
+
 ### 3D model preview
 - Weapon preview
 - Agent / player preview
@@ -101,6 +115,7 @@ licence key, pulls the latest build, and manual-maps it into the game.
 - Opening the menu in a match goes to the gun or knife in hand
 - Rebindable menu and unload keys
 - Skin changer tab
+- HUD tab
 - Settings tab
 - Theme editor with theme save / load
 - Config save / load / delete
