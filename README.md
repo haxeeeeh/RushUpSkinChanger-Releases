@@ -100,7 +100,8 @@ default.
 - Hit message in chat: who you hit, for how much and how much they have left
   (local chat, only you see it)
 - Damage numbers floating up beside the crosshair, also for the player you are
-  spectating
+  spectating; a slider sets their size (10–40 px) for resolutions where the
+  default is too big
 - Scoreboard: an HP column for every player (in place of the medal column, so
   long names never push it around), each player's weapon (primary, or pistol)
   and grenades, enemies' money filled into the money column, and the
