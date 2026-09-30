@@ -1,7 +1,8 @@
 # RushUp SkinChanger
 
 A client-side cosmetic changer for CS2. The cosmetics only alter the appearance of
-items on your own screen — other players cannot see the changes. The optional HUD
+items on your own screen — other players cannot see the changes, except RushUp
+users in the same match when both of you turn on skin sharing. The optional HUD
 tab adds match info (hit feedback, extra scoreboard columns, a bomb timer) that is
 also shown only to you; each piece can be switched off.
 
@@ -108,6 +109,11 @@ default.
   progress bar, and a defuse progress bar that shows whether the defuse will
   finish in time
 - Styled after the menu, following the current theme's accent colour
+- Skin sharing (on by default): stores your SteamID and your guns (with
+  charms), knife, gloves and agent (with patches) for both sides on the RushUp
+  server, and puts those of other RushUp users in your match on them — both
+  sides need it on. Both sides are stored, so a player's look is right the
+  moment teams swap
 
 ### 3D model preview
 - Weapon preview
