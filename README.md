@@ -100,12 +100,12 @@ default.
 - Hit message in chat: who you hit, for how much and how much they have left
   (local chat, only you see it)
 - Damage numbers floating up beside the crosshair, also for the player you are
-  spectating; a slider sets their size (10–40 px) for resolutions where the
-  default is too big
-- Scoreboard: an HP column for every player (in place of the medal column, so
-  long names never push it around), each player's weapon (primary, or pistol)
-  and grenades, enemies' money filled into the money column, and the
-  game's own defuse-kit and bomb icons on enemies who carry them
+  spectating; a slider sets their size (10–40 px, 10 by default)
+- Team bar at the top: the game's own HP, money, best weapon, grenades, armor
+  and defuse-kit panel under every avatar, kept open all round (the game only
+  opens it at buy time) and filled in for enemies too
+- Scoreboard: enemies' money filled into the money column, and the game's own
+  defuse-kit and bomb icons on enemies who carry them
 - Bomb timer at the top of the screen: bomb site (A / B), time left with a
   progress bar, and a defuse progress bar that shows whether the defuse will
   finish in time
