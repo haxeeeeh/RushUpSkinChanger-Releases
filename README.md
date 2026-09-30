@@ -115,6 +115,8 @@ default.
   server, and puts those of other RushUp users in your match on them — both
   sides need it on. Both sides are stored, so a player's look is right the
   moment teams swap
+- In a party lobby, members see your agent, gloves and the weapon on show
+  (finish only - no wear, seed or stickers) even without RushUp
 
 ### 3D model preview
 - Weapon preview
