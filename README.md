@@ -98,9 +98,11 @@ Each item has its own switch on the HUD tab, saved with the config; all are on b
 default.
 - Hit message in chat: who you hit, for how much and how much they have left
   (local chat, only you see it)
-- Damage numbers floating up beside the crosshair
-- Scoreboard: an HP column for every player, enemies' money filled into the
-  money column, and a defuse-kit icon on enemies who carry one
+- Damage numbers floating up beside the crosshair, also for the player you are
+  spectating
+- Scoreboard: an HP column for every player, each player's weapon (primary, or
+  pistol) and grenades, enemies' money filled into the money column, and the
+  game's own defuse-kit and bomb icons on enemies who carry them
 - Bomb timer at the top of the screen: bomb site (A / B), time left with a
   progress bar, and a defuse progress bar that shows whether the defuse will
   finish in time
