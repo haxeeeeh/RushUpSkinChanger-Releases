@@ -118,6 +118,11 @@ default.
 - In a party lobby, members see your agent, gloves and the weapon on show
   (finish only - no wear, seed or stickers) even without RushUp
 
+### Match
+- Auto-accept (on by default): accepts a found match about a second after the
+  popup shows. It accepts when you are away too, and not joining then counts
+  as abandoning the match
+
 ### 3D model preview
 - Weapon preview
 - Agent / player preview
