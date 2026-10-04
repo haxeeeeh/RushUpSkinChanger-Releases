@@ -90,6 +90,31 @@ licence key, pulls the latest build, and manual-maps it into the game.
 - Import a single item from its inspect link
 - Edit the patches on an added agent
 - The inventory persists through configs
+- Cases tab: every container in the game (weapon cases, souvenir packages, sticker /
+  patch / pin / music kit capsules, graffiti boxes) by category with search, each with
+  its picture, key, odds per grade and an Add button (up to 100 at once, with or without
+  keys, or keys only). Added cases show in CS2's own new-item popup the next time the
+  inventory opens, and carry the "new"
+  tag in the inventory
+- What a case drops, set per case: random with the real odds, or something that case
+  really holds (its own knives / gloves included) on the Nth case of that kind from now,
+  with wear, pattern and StatTrak - that one case only, or every case after it.
+  For a terminal: which offer (1-5) of the Nth terminal unsealed it comes as
+- Added terminals (Genesis / Dead Hand) unseal into CS2's own offer laptop: five offers
+  one by one with the real odds and their market price (a built-in list of what
+  terminals offer, `tools/make_terminal_prices.py`), decline for the next, accept to keep it (never sent to
+  Steam, free); declining the last one discards the terminal. A reopened laptop shows
+  the same offer again
+- Open added cases with CS2's own Unlock button and reel, with the real odds (★ from
+  the knives / gloves the case names); the case and key are used up and the drop is
+  added like any other item. A real case opened with an added key works too. A line in
+  your chat says what came out (in a match, only you see it)
+- CS2's own sticker tool works on added guns: apply (free placement, real or added
+  stickers - an added one is used up), scrape and remove; the gun shows CS2's "updated"
+  popup and tag
+- CS2's own patch tool works on added agents too: apply and remove
+- Trade-up contracts of added guns: the next grade up from one of their collections,
+  at their average float, StatTrak kept; Covert trades up to a knife or gloves
 - Injecting mid-match keeps the config's loadout: equips the game refuses in a
   match are retried and go on once back in the main menu, and items dropped
   when the game resends its inventory are added back
@@ -119,8 +144,8 @@ default.
   (finish only - no wear, seed or stickers) even without RushUp
 
 ### Match
-- Auto-accept (on by default): accepts a found match about a second after the
-  popup shows. It accepts when you are away too, and not joining then counts
+- Auto-accept (on by default): accepts a found match the moment the popup
+  shows. It accepts when you are away too, and not joining then counts
   as abandoning the match
 
 ### 3D model preview
