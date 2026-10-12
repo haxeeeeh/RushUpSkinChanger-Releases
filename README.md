@@ -171,7 +171,7 @@ default.
 - Automatic scaling to the display resolution
 
 ### Injector / delivery
-- KeyAuth licence check with HWID lock
+- KeyAuth licence check with HWID lock (optional, see [Building](#building))
 - Licence key and local state stored under `HKCU\Software\RushUp` (no loose files)
 - Splash lightbox with live download progress
 - Auto-update: fetches the latest DLL when the published version differs
@@ -199,6 +199,18 @@ default.
 4. Paste the licence key when prompted (stored after the first successful check).
 5. With CS2 running, wait for the splash to report a successful injection.
 6. Press **Insert** in-game to open the menu, **PageDown** to unload.
+
+## Building
+
+Open `RushUpSkinChanger.sln` in Visual Studio 2022 and build Release x64; the
+injector and the DLL land side by side in `x64/Release`.
+
+A plain build needs no accounts or servers: there is no licence check, the
+injector maps the DLL next to it, and skin sharing and auto-update are off. To
+turn those on, create `RushUpSkinChanger-Injector/Deployment.local.h` (untracked)
+with your own KeyAuth app, download service (`worker/`, configured in
+`worker/wrangler.toml`) and releases repo - `RushUpSkinChanger-Injector/Deployment.h`
+lists the values.
 
 > ⚠️ Tools that modify game memory can be detected by VAC. Account bans are a real
 > risk — use at your own discretion, ideally on a test account.
