@@ -147,6 +147,21 @@ default.
 - Auto-accept (on by default): accepts a found match the moment the popup
   shows. It accepts when you are away too, and not joining then counts
   as abandoning the match
+- Assist controls for auto-queueing, reconnecting, post-match rewards and commends,
+  and invitations from selected friends
+- Reports for selected players, with a configurable interval and send count
+
+### Autoplay
+- Configurable navigation, buying, aiming and firing, started or stopped with F8
+  by default; the shortcut can be changed in Settings
+- Manual takeover: pauses when you use the keyboard or mouse and resumes after
+  the configured delay
+- Deathmatch pursuit and patrols: follows the selected radar, sound or full-map
+  information mode and explores reachable areas when no current target is known
+- Target cleanup after death or respawn, timed firing with explicit releases,
+  and empty-magazine reloads during engagements
+- Local obstacle recovery and route retries when movement is blocked
+- Movement, combat and navigation regression checks are in `tools/`
 
 ### 3D model preview
 - Weapon preview
@@ -163,6 +178,7 @@ default.
 - Rebindable menu and unload keys
 - Skin changer tab
 - HUD tab
+- Assist and Autoplay tabs
 - Settings tab
 - Theme editor with theme save / load
 - Config save / load / delete
