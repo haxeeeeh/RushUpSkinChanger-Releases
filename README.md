@@ -152,7 +152,8 @@ default.
 - Reports for selected players, with a configurable interval and send count
 - Chat translation (Google Translate): other players' messages in another language
   get a translated line in your chat (only you see it), and `/r`, `/k`, `/v` or `/c`
-  before a message sends it in Russian, Korean, Vietnamese or Simplified Chinese
+  before a message sends it in Russian, Korean, Vietnamese or Simplified Chinese.
+  Check Translate next to players in this match to translate only them
 
 ### Autoplay
 - Configurable navigation, buying, aiming and firing, started or stopped with F8
