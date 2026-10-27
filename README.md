@@ -2,8 +2,8 @@
 
 A client-side cosmetic changer for CS2. The cosmetics only alter the appearance of
 items on your own screen — other players cannot see the changes, except RushUp
-users in the same match when both of you turn on skin sharing. The optional HUD
-tab adds match info (hit feedback, extra scoreboard columns, a bomb timer) that is
+users in the same match, who see each other's skins automatically. The Assist page
+adds match info (hit feedback, extra scoreboard columns, a bomb timer) that is
 also shown only to you; each piece can be switched off.
 
 Users receive a single `RushUpSkinChanger-Injector.exe`. On launch it verifies a
@@ -120,7 +120,7 @@ licence key, pulls the latest build, and manual-maps it into the game.
   when the game resends its inventory are added back
 
 ### HUD / match info
-Each item has its own switch on the HUD tab, saved with the config; all are on by
+Each item has its own switch on the Assist page, saved with the config; all are on by
 default.
 - Hit message in chat: who you hit, for how much and how much they have left
   (local chat, only you see it)
@@ -135,10 +135,9 @@ default.
   progress bar, and a defuse progress bar that shows whether the defuse will
   finish in time
 - Styled after the menu, following the current theme's accent colour
-- Skin sharing (on by default): stores your SteamID and your guns (with
+- Skin sharing (always on): stores your SteamID and your guns (with
   charms), knife, gloves and agent (with patches) for both sides on the RushUp
-  server, and puts those of other RushUp users in your match on them — both
-  sides need it on. Both sides are stored, so a player's look is right the
+  server, and puts those of other RushUp users in your match on them. Both sides are stored, so a player's look is right the
   moment teams swap
 - In a party lobby, members see your agent, gloves and the weapon on show
   (finish only - no wear, seed or stickers) even without RushUp
@@ -184,8 +183,7 @@ default.
 - Opening the menu in a match goes to the gun or knife in hand
 - Rebindable menu and unload keys
 - Skin changer tab
-- HUD tab
-- Assist and Autoplay tabs
+- Assist tab (automation on the left, in-match info, translation and reports on the right) and Autoplay tab
 - Settings tab
 - Theme editor with theme save / load
 - Config save / load / delete
