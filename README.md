@@ -149,11 +149,14 @@ default.
   as abandoning the match
 - Assist controls for auto-queueing, reconnecting, post-match rewards and commends,
   and invitations from selected friends
-- Reports for selected players, with a configurable interval and send count
-- Chat translation (Google Translate): other players' messages in another language
-  get a translated line in your chat (only you see it), and `/r`, `/k`, `/v` or `/c`
-  before a message sends it in Russian, Korean, Vietnamese or Simplified Chinese.
-  Check Translate next to players in this match to translate only them
+- Players in this match (Premier and Competitive only): commend, translate or
+  report each player with their own checkbox; reports repeat at a configurable
+  interval and send count
+- Chat translation (Google Translate, or Claude with your own API key, stored
+  encrypted outside the configs): other players' longer messages in another
+  language get a translated line in your chat (only you see it) - short ones like
+  `gg` or `ez` are skipped - and `/r`, `/k`, `/v` or `/c` before a message sends it
+  in Russian, Korean, Vietnamese or Simplified Chinese
 
 ### Autoplay
 - Configurable navigation, buying, aiming and firing, started or stopped with F8
