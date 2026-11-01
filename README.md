@@ -154,8 +154,8 @@ default.
 - Chat translation (Google Translate, or Claude with your own API key, stored
   encrypted outside the configs): other players' longer messages in another
   language get a translated line in your chat (only you see it) - short ones like
-  `gg` or `ez` are skipped - and `/r`, `/k`, `/v` or `/c` before a message sends it
-  in Russian, Korean, Vietnamese or Simplified Chinese
+  `gg` or `ez` are skipped - and `/r`, `/k`, `/v`, `/c` or `/m` before a message sends it
+  in Russian, Korean, Vietnamese, Simplified Chinese or Mongolian
 
 ### Autoplay
 - Configurable navigation, buying, aiming and firing, started or stopped with F8
