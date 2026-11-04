@@ -197,7 +197,7 @@ default.
 - Splash lightbox with live download progress
 - Auto-update: fetches the latest DLL when the published version differs
 - Manual-map injection into `cs2.exe`
-- Requires running as administrator
+- Runs with the current user's permissions; no administrator prompt
 
 ### Misc
 - Item schema parsing for weapons, skins, knives, gloves, stickers, charms,
@@ -215,11 +215,21 @@ default.
    scanners flag on sight; without the exclusion the downloaded DLL gets
    quarantined and the injector keeps reporting *First run - downloading...*
    followed by a download failure.
-3. Run `RushUpSkinChanger-Injector.exe` as administrator and accept the risk
-   notice.
+3. Run `RushUpSkinChanger-Injector.exe` from the same Windows user desktop as CS2
+   and accept the risk notice. It starts with your current user's permissions.
 4. Paste the licence key when prompted (stored after the first successful check).
 5. With CS2 running, wait for the splash to report a successful injection.
 6. Press **Insert** in-game to open the menu, **PageDown** to unload.
+
+If several Windows users are playing on the same PC, run the injector from each
+user's own game desktop. It only selects CS2 processes in that Windows session;
+games in other sessions are left alone. If several games are in the same session,
+choose one by Windows account and PID. Re-injecting unloads only the selected game.
+When upgrading from an older build, unload the old copy with **PageDown** or
+restart CS2 before using the new injector and DLL together.
+
+If CS2 itself runs as administrator, the injector can't open it (*Windows error 5*).
+Start CS2 and Steam normally, or run the injector as administrator too.
 
 ## Building
 
@@ -232,6 +242,11 @@ turn those on, create `RushUpSkinChanger-Injector/Deployment.local.h` (untracked
 with your own KeyAuth app, download service (`worker/`, configured in
 `worker/wrangler.toml`) and releases repo - `RushUpSkinChanger-Injector/Deployment.h`
 lists the values.
+
+For testing locally compiled changes with deployment settings present, build the
+injector with MSBuild `-p:RushUpLocalBuild=true`. This uses the EXE and adjacent DLL
+without downloading replacements; licence checks and service features still follow
+your deployment settings. Build and distribute the matching DLL alongside it.
 
 > ⚠️ Tools that modify game memory can be detected by VAC. Account bans are a real
 > risk — use at your own discretion, ideally on a test account.
