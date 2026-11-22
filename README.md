@@ -147,6 +147,7 @@ Changes what your own main menu and player card show; other players and the GC
 still see your real profile. Each item has its own switch, saved with the config,
 and the main menu updates within a second of a change.
 - Premier rating, Competitive rank (every map) and Wingman rank, with wins
+  (the season's highest CS Rating follows a custom Premier rating)
 - Profile level and XP; at level 40 the Get Service Medal button hands out the
   next service medal locally and starts again from level 1. Like a real upgrade,
   the medal you already have becomes the next one rather than a second medal
@@ -172,7 +173,8 @@ Visual effects only you see; each has its own switch, saved with the config.
 - Viewmodel field of view (40-120) and left / right, forward / back and up / down
   offsets, beyond the ranges the game's own settings allow
 - Third person, with a distance setting (50-300); the camera stops short of walls,
-  and scoping in or dying switches back to first person
+  and scoping in or dying switches back to first person. An optional toggle key
+  switches it in game (not while the menu is open)
 - Graffiti added by RushUp can be sprayed: it is drawn locally in the tint you picked,
   so only you see it, with a cooldown (0-60 s) and a button that clears what you sprayed
 
