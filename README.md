@@ -142,6 +142,40 @@ default.
 - In a party lobby, members see your agent, gloves and the weapon on show
   (finish only - no wear, seed or stickers) even without RushUp
 
+### Profile
+Changes what your own main menu and player card show; other players and the GC
+still see your real profile. Each item has its own switch, saved with the config,
+and the main menu updates within a second of a change.
+- Premier rating, Competitive rank (every map) and Wingman rank, with wins
+- Profile level and XP; at level 40 the Get Service Medal button hands out the
+  next service medal locally and starts again from level 1. Like a real upgrade,
+  the medal you already have becomes the next one rather than a second medal
+- Commends (friendly / teacher / leader)
+- Prime status
+- XP Overload icon, with how many weeks in a row
+- Ban notice (VAC, game ban or account locked) in the main menu's top left
+- Matchmaking cooldown with its reason and time left
+
+### World
+Visual effects only you see; each has its own switch, saved with the config.
+- Weather particles around you that follow you: snow, heavy or light rain, falling
+  leaves, embers, sparks or little stars, with a density setting
+- Frosted weapons, gloves and arms, like on the winter maps, with an amount setting
+  (a winter map keeps its own frost when this is off)
+- Wet weapons, gloves and arms with water running down, like on the rainy maps:
+  wetness, dryness, rain, wind sway and flow speed
+- World colour: tints walls, floors and props (it can only darken - good for a night look)
+- Sunlight colour, and the colour of the sun and of the clouds in the sky
+- Weapon shine: how brightly your weapon, gloves and arms reflect light (0-5, 1 is normal)
+- Fixed exposure (10-300%) instead of the automatic one
+- Field of view (60-130; scoping in keeps the game's own zoom)
+- Viewmodel field of view (40-120) and left / right, forward / back and up / down
+  offsets, beyond the ranges the game's own settings allow
+- Third person, with a distance setting (50-300); the camera stops short of walls,
+  and scoping in or dying switches back to first person
+- Graffiti added by RushUp can be sprayed: it is drawn locally in the tint you picked,
+  so only you see it, with a cooldown (0-60 s) and a button that clears what you sprayed
+
 ### Match
 - Auto-accept (on by default): accepts a found match the moment the popup
   shows. It accepts when you are away too, and not joining then counts
