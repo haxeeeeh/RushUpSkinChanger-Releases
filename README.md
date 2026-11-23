@@ -71,6 +71,13 @@ licence key, pulls the latest build, and manual-maps it into the game.
 - StatTrak music kits, counting up with your MVPs in game
 - Music kit images
 
+### Pets
+- Chick, Catalana, Silkie and Polish chicken next to your character in the main menu
+  (only you see it), one at a time
+- A look number picks the bird's colours and shape, with a 3D preview that turns
+  side to side; changing it swaps the pet in the main menu
+- Card images captured from the preview
+
 ### Collectibles
 - Pins, medals and operation coins (challenge / bronze / silver / gold merged)
 - Grade picker per family, categorised like the weapons page
@@ -232,7 +239,9 @@ Visual effects only you see; each has its own switch, saved with the config.
 - Licence key and local state stored under `HKCU\Software\RushUp` (no loose files)
 - Splash lightbox with live download progress
 - Auto-update: fetches the latest DLL when the published version differs
-- Manual-map injection into `cs2.exe`
+- Manual-map injection into `cs2.exe`, once the game has finished loading
+- Says when another anti-cheat (FACEIT and the like) keeps it out of CS2, and shows an
+  error code for other failed injections
 - Runs with the current user's permissions; no administrator prompt
 
 ### Misc
