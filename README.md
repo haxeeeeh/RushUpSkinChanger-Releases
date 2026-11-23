@@ -181,7 +181,9 @@ Visual effects only you see; each has its own switch, saved with the config.
   offsets, beyond the ranges the game's own settings allow
 - Third person, with a distance setting (50-300); the camera stops short of walls,
   and scoping in or dying switches back to first person. An optional toggle key
-  switches it in game (not while the menu is open)
+  switches it in game (not while the menu is open). The camera stays on your line of
+  sight so the crosshair is where shots land, and your character turns see-through so
+  it doesn't block the crosshair
 - Graffiti added by RushUp can be sprayed: it is drawn locally in the tint you picked,
   so only you see it, with a cooldown (0-60 s) and a button that clears what you sprayed
 
